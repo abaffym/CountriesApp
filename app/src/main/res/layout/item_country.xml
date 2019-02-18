@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="?android:attr/selectableItemBackground"
+              android:orientation="horizontal"
+              android:padding="8dp">
+
+    <ImageView
+            android:id="@+id/iv_country_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            tools:src="@tools:sample/backgrounds/scenic"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_country_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Norway"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_country_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Norway is a super cool Scandinavian country."/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
