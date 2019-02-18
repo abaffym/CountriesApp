@@ -1,4 +1,4 @@
-package com.abaffym.countriesapp.list
+package com.abaffym.countriesapp.ui.list
 
 import androidx.lifecycle.ViewModel;
 

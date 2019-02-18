@@ -1,8 +1,9 @@
-package com.abaffym.countriesapp
+package com.abaffym.countriesapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.abaffym.countriesapp.list.CountryListFragment
+import com.abaffym.countriesapp.R
+import com.abaffym.countriesapp.ui.list.CountryListFragment
 
 class MainActivity : AppCompatActivity() {
 

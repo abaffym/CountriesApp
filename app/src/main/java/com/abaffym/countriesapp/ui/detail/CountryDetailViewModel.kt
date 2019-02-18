@@ -1,4 +1,4 @@
-package com.abaffym.countriesapp.detail
+package com.abaffym.countriesapp.ui.detail
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

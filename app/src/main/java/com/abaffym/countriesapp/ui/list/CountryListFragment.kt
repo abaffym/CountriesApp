@@ -1,4 +1,4 @@
-package com.abaffym.countriesapp.list
+package com.abaffym.countriesapp.ui.list
 
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 import com.abaffym.countriesapp.R
-import com.abaffym.countriesapp.detail.CountryDetailFragment
+import com.abaffym.countriesapp.ui.detail.CountryDetailFragment
 import com.abaffym.countriesapp.mock.mockCountries
 import kotlinx.android.synthetic.main.fragment_country_list.*
 import java.lang.IllegalStateException
